@@ -1,0 +1,90 @@
+@import url(styles/header.css);
+
+:root {
+    --cor-de-fundo: rgb(177, 63, 177) 58, 95);
+    --cor-de-cabecalho: #b633b6;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    margin: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #eb80eb;
+    color: rgba(19, 22, 22, 0.315);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.Item1-imagem{
+    width: 25%;
+}
+
+.Item1{
+    background-image: linear-gradient(#e983e2,#16CFF8);
+    color:rgb(26, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.item1-div-conteudo{
+    width: 35%;
+}
+
+
+.item1-titulo{
+    padding: 24px 0;
+}
+
+.item2{
+    padding: 24px 0;
+}
+.item2-imagem{
+    width: 120px;
+}
+
+.item2-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.item2-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.item2-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
